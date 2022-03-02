@@ -1,0 +1,58 @@
+/* Resume PDF icon */
+#pdf_resume {
+    display: inline;
+}
+#pdf_resume:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons */
+
+#event_list {
+    margin: 0px;
+    padding-left: 0px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(5, 50px);
+    grid-auto-flow: column;
+}
+
+button {
+    background-color: rgb(248, 249, 250);
+    color: rgb(60, 64, 67);
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+}
+
+button:hover {
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(218, 220, 224);   
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(66, 134, 245);
+}
+
+main img {
+    display: block;
+}
+ 
+.google_icon {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#map_photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

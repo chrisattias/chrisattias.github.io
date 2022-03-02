@@ -1,0 +1,106 @@
+/* CSS shored by the CV and Portfolio pages of the web site */
+
+/*The search bar */
+header {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 150px 500px;
+    gap: 20px;
+    align-items: center;
+}
+
+#name_image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+form {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+input {
+    font-size: 16px;
+    width: 460px;
+    height: 44px;
+    border: solid 1px;
+    border-radius:  24px;
+    border-color: rgb(223, 225, 229);
+    padding-left: 30px;
+    box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.15)
+}
+
+input:hover {
+    box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.28)
+}
+
+input:focus {
+ outline: none;
+}
+
+/* Form input label hidden except for screen reader */
+label {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+/* Search media images */
+#google_search_media {
+    margin-top: 30px;
+}
+hr {
+    color: rgba(223, 225, 229, .5);
+    border-top: solid 1px;
+    border-bottom: none;
+    margin-top: -4px;
+    width: 100%;
+}
+
+#number_search_results {
+    font-size: 13px;
+    color: rgb(112, 117, 122);
+}
+
+/* The main portfolio content */
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(26, 13, 171);
+    font-weight: normal;
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: rgb(26, 13, 171);
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+main hr {
+    margin: 10px;
+}
+
+
+/* Media queries */
+@media screen and (min-width: 700px) {
+    header, #media_results, main {
+        margin-left: 6vw;
+        width: 75vw;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    header, #media_results, main {
+        width: 60vw;
+    }
+}

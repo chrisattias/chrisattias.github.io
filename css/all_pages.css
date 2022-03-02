@@ -1,0 +1,54 @@
+/* CSS shared by all pages of web site */
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 20px;
+    padding: 0px;
+}
+
+/* Top Navbar*/
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: flex-end;
+ }
+nav li {
+    margin: 10px;
+    margin-top: 0px;
+}
+nav li:nth-last-child(2) {
+    margin-left: auto;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+}
+
+/* All links**/
+a {
+    text-decoration: none;
+    color: rgb(32, 33, 36);
+}
+
+/* The footer */
+footer a {
+    background-color: rgb(242, 242, 242);
+    color: rgb(112, 117, 122);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#leaf {
+    vertical-align: middle;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
