@@ -1,8 +1,9 @@
 /* CSS shared by all pages of web site */
 
 /* Setting the html and body height to 100% is needed for the sticky footer */
+/* Though a 95vh seems to prevent needed  scroll bar on the home page. */
 html {
-    height: 100%;
+    height: 95vh;
 }
 
 body {
@@ -42,11 +43,14 @@ a {
 }
 
 /* The footer */
+/* Negative margins used to counteract the body margins above */
+/* Home page behaves differently than other and naturally has bottom whitespace */
 footer {
     position: sticky;
     margin-left: -20px;
-    top: 100vh;
-    width: 100vw;
+    margin-right: -20px;
+    margin-bottom: -50px;
+    top: 100%;
     text-align: center;
     background-color: rgb(242, 242, 242);
     padding: 10px;
