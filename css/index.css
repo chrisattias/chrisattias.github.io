@@ -3,6 +3,11 @@ main {
     margin-top: 180px;
     display: grid;
     justify-items: center;
+    justify-content: center;
+}
+
+main img {
+    max-width: 90vw;
 }
 
 input {
@@ -15,6 +20,8 @@ input {
     border-radius:  24px;
     border-color: rgb(223, 225, 229);
     padding-left: 30px;
+    max-width: 80vw;
+
 }
 
 input:hover {

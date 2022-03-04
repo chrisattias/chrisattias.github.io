@@ -1,10 +1,18 @@
 /* CSS shared by all pages of web site */
 
+/* Setting the html and body height to 100% is needed for the sticky footer */
+html {
+    height: 100%;
+}
+
 body {
     font-family: arial, sans-serif;
     font-size: 14px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 0px;
+    height: 100%;
 }
 
 /* Top Navbar*/
@@ -34,15 +42,20 @@ a {
 }
 
 /* The footer */
-footer a {
-    background-color: rgb(242, 242, 242);
-    color: rgb(112, 117, 122);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+footer {
+    position: sticky;
+    margin-left: -20px;
+    top: 100vh;
+    width: 100vw;
     text-align: center;
+    background-color: rgb(242, 242, 242);
     padding: 10px;
+
+}
+
+/*For the text of the footer*/
+footer a {
+    color: rgb(112, 117, 122);
 }
 
 #leaf {

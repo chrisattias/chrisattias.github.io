@@ -4,7 +4,7 @@
 header {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 150px 500px;
+    grid-template-columns: 150px 1fr;
     gap: 20px;
     align-items: center;
 }
@@ -12,25 +12,23 @@ header {
 #name_image {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
 }
 form {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
 }
 
 input {
     font-size: 16px;
-    width: 460px;
+    min-width: 100px;
+    max-width: 460px;
+    width: 85%;
     height: 44px;
     border: solid 1px;
     border-radius:  24px;
     border-color: rgb(223, 225, 229);
     padding-left: 30px;
-    box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.15)
+    box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.15);
 }
 
 input:hover {
@@ -59,7 +57,7 @@ hr {
     color: rgba(223, 225, 229, .5);
     border-top: solid 1px;
     border-bottom: none;
-    margin-top: -4px;
+    margin-top: -5px;
     width: 100%;
 }
 
@@ -85,22 +83,42 @@ h2 {
     font-size: 20px;
 }
 
-
 main hr {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.google_icon {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-/* Media queries */
-@media screen and (min-width: 700px) {
+/* Media queries */   
+@media screen and (min-width: 650px) {
     header, #media_results, main {
         margin-left: 6vw;
-        width: 75vw;
+        margin-right: 6vw;
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1100px) {
+    header, #media_results, main {
+        width: 75vw;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
     header, #media_results, main {
         width: 60vw;
     }
+    
+}
+
+@media screen and (min-width: 1900px) {
+    header, #media_results, main {
+        width: 45vw;
+    }
+    
 }

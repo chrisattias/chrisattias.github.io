@@ -7,7 +7,6 @@
 }
 
 /* Buttons */
-
 #event_list {
     margin: 0px;
     padding-left: 0px;
@@ -15,8 +14,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(8, 1fr);
-    grid-auto-flow: column;
-    
+    grid-auto-flow: column;   
 }
 
 button {
@@ -43,17 +41,15 @@ button:active {
     border-color: rgb(66, 134, 245);
 }
 
-main img {
-    display: block;
-}
- 
-.google_icon {
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-
+/* Life events */ 
 #map_photo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    column-gap: 10px;
+}
+
+#photo, #map {
+    max-width: 100%;
+    max-height: auto;
 }
