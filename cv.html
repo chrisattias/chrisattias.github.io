@@ -3,6 +3,7 @@
     <head>
         <title>Chris Attias CV</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/all_pages.css">
         <link rel="stylesheet" href="css/cv_portfolio.css">
         <link rel="stylesheet" href="css/cv.css">    
@@ -38,12 +39,14 @@
     <main>
         <h1>CV</h1>
         <p> Welcome to my CV!  Curriculum vitae means "course of life" in Latin.  This page tracks the course of my life, telling a short story.  Most events do focus on past employment, allowing this page to also serve as an interactive resume...with flair!</p>
-        <p>A traditional resume can be downloaded as a PDF. 
+        <p>Additionally, a traditional resume can be downloaded as a PDF. 
             <a href="img/chris_attias_resume.pdf">
                  <img src="img/pdf_24px.png" alt="" id="pdf_resume"></a></p>
-        <p> The "Search results" below display life events.  Each event is comprised of a:</p>
+        <p> Click on a button to toggle a life event.  This will populate "search results" comprised of:</p>
         <ol>
             <li>Event name</li>
+            <li>Year(s) of occurrence</li>
+            <li>Organization</li>
             <li>Description</li>
             <li>Location</li>
             <li>Photo</li>
@@ -52,11 +55,27 @@
         <ol id="event_list">
             <li><button onclick="displayEvent(this)" id="Birth">Birth</button></li>
             <li><button onclick="displayEvent(this)" id="Cute Phase">Cute Phase</button></li>
+            <li><button onclick="displayEvent(this)" id="Awkward Phase">Awkward Phase</button></li>
+            <li><button onclick="displayEvent(this)" id="College">College</button></li>
+            <li><button onclick="displayEvent(this)" id="Ski Lift Operator">Ski Lift Operator</button></li>
+            <li><button onclick="displayEvent(this)" id="Washington Conservation Corps">Washington Conservation Corps</button></li>
+            <li><button onclick="displayEvent(this)" id="Watershed Stewards Program (northern California)">Watershed Stewards Program</button></li>
+            <li><button onclick="displayEvent(this)" id="Watershed Stewards Program (central California)">Watershed Stewards Program</button></li>
+            <li><button onclick="displayEvent(this)" id="Raft Guide (California)">Raft Guide</button></li>
+            <li><button onclick="displayEvent(this)" id="Fisheries Technician (California)">Fisheries Technician</button></li>
+            <li><button onclick="displayEvent(this)" id="Raft Guide (Colorado)">Raft Guide</button></li>
+            <li><button onclick="displayEvent(this)" id="Fisheries Technician (northern Washington)">Fisheries Technician</button></li>
+            <li><button onclick="displayEvent(this)" id="Raft Guide (Tennessee)">Raft Guide</button></li>
+            <li><button onclick="displayEvent(this)" id="Fisheries Technician (southern Washington)">Fisheries Technician</button></li>
+            <li><button onclick="displayEvent(this)" id="Environmental Health Specialist">Environmental Health Specialist</button></li>
+            <li><button onclick="displayEvent(this)" id="Getting Geeky">Getting Geeky</button></li>
         </ol>
         <hr>
         <h2 id="event">Birth</h2>
         <img src="img/google_news_small.png" alt="" class="google_icon">
-        <p id="description">Year: 1991.  My parents never intended to have twins, but at least they had a sense of humor about it.</p>
+        <p id="year">Year: 1991</p>
+        <p id="organization">Organization: Sierra Vista Hospital</p>
+        <p id="description">Description: My parents already had one child and only intended to have one more.  Then twins happened.  At least they had a sense of humor about it.</p>
         <div id="map_photo">
             <div>
                 <img src="img/google_maps_small.png" alt="" class="google_icon">
