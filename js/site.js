@@ -54,7 +54,7 @@ const events = {
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24733.900771124976!2d-120.23756775363627!3d39.20341083313435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd9eb8ed78e61%3A0x84b9b4fc9269314f!2sOlympic%20Valley%2C%20CA%2096146!5e0!3m2!1sen!2sus!4v1646348900999!5m2!1sen!2sus",
         photo: ["img/ski_400.jpg", "Skiing"],
         name: "Ski Lift Operator",
-        year: "ski: 2013-2014",
+        year: "Year: 2013-2014",
         organization: "Organization: Squaw Valley Ski Resort",
         description: "Description: Safely and efficiently operated chair lifts while ensuring positive guest experiences.  Also learned how to ski."
     },
@@ -162,4 +162,46 @@ function displayEvent(eventButtonElement) {
    document.getElementById("map").src = events[event]["map"];
    document.getElementById("photo").src = events[event]["photo"][0];
    document.getElementById("photo").alt = events[event]["photo"][1];
+}
+
+function welcome() {
+    /* Print change value of input field.
+    Wait a certain number of milliseconds before changing.
+    Must add milliseconds onto accumulator variable "milliseconds"
+    because of asynchronous nature of Javascript.
+    If we did not do this, then for loop would complete almost immediately.
+    Then, after a certain number of milliseconds, all the changes
+    would come in more or less all at once.  Each for loop added changes
+    the wait to imitate different typing speeds. If we just wanted a set typing rate
+    we could have used one for loop. */
+    document.getElementById("decorative_form_input").value = ""
+    /* Wait before typing anything */
+    let milliseconds = 2000;
+    for (let letter of "Hello World") {
+        setTimeout(function() {
+            document.getElementById("decorative_form_input").value += letter;
+        }, milliseconds);
+        /* Wait between letters */
+        milliseconds += 250;
+    }
+    /* Wait to imitate a human thinking */
+    milliseconds += 3000;
+    for (let letter of "...") {
+        setTimeout(function() {
+            document.getElementById("decorative_form_input").value += letter;
+        }, milliseconds);
+        milliseconds += 500;
+    }
+    for (let letter of "Wide Web") {
+        setTimeout(function() {
+            document.getElementById("decorative_form_input").value += letter;
+        }, milliseconds);
+        milliseconds += 250;
+    }
+    milliseconds += 1500;
+    for (let letter of "!") {
+        setTimeout(function() {
+            document.getElementById("decorative_form_input").value += letter;
+        }, milliseconds);
+    }
 }
