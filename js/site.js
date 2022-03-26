@@ -120,7 +120,7 @@ const events = {
         name: "Raft Guide (Tennessee)",
         year: "Year: 2018",
         organization: "Organization: Wildwater Rafting Company",
-        description: 'Description: Safely guided guests down the Ocoee, Chatooga, Pigeon, and Nantahala rivers. "Hold on!"'
+        description: 'Description: Safely guided guests down the Ocoee, Chattooga, Pigeon, and Nantahala rivers. "Hold on!"'
     },
     "fish_tech_s_wa": {
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44498.23619221253!2d-122.7387289806846!3d45.80845927494196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54944d7312b9e551%3A0x95775af003e68f8!2sRidgefield%2C%20WA%2098642!5e0!3m2!1sen!2sus!4v1646349125488!5m2!1sen!2sus",
