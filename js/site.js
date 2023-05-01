@@ -141,11 +141,11 @@ const events = {
     "help_desk": {
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52117.55770332562!2d-120.71158531111365!3d35.2724890666563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ece6be7b6cc227%3A0xbc0290c2ceef0f46!2sSan%20Luis%20Obispo%2C%20CA!5e0!3m2!1sen!2sus!4v1682903513390!5m2!1sen!2sus",
         photo: ["img/geeky_400.jpg", "D&D characters portrait"],
-        name: "IT Help Desk (and D&D)",
+        name: "IT Help Desk",
         year: "Years: 2022-2023",
         organization: "Organization: City of San Luis Obispo",
-        description: "Description: As I approached the ripe old age of 30, I decided it was time to learn more about those newfangled computers everybody keeps talking about.  In other words, get geeky.  The first step?  Start playing Dungeons & Dragons. Second?  Build a personal computer.  Third?  Take MOOCs in computer science.  Fourth?  Get a part-time job with the City of San Luis Obispo IT Help Desk."
-    }
+        description: "Description: As I approached the ripe old age of 30, I decided it was time to learn more about those newfangled computers everybody keeps talking about.  In other words, get geeky.  The first step?  Start playing Dungeons & Dragons. Second?  Build a personal computer.  Third?  Take MOOCs in computer science.  Fourth?  Get a part-time job as the Assistant (to the) IT Help Desk."
+    },
     "cuesta": {
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52117.55770332562!2d-120.71158531111365!3d35.2724890666563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ece6be7b6cc227%3A0xbc0290c2ceef0f46!2sSan%20Luis%20Obispo%2C%20CA!5e0!3m2!1sen!2sus!4v1682903513390!5m2!1sen!2sus",
         photo: ["img/college_400.jpg", "College graduation ceremony"],
