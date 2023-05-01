@@ -45,7 +45,7 @@ const events = {
     "college": {
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96582.59373716332!2d-124.1234347149432!3d40.84539961658875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d1570e67b9e801%3A0x7d8ad78fa1858786!2sArcata%2C%20CA!5e0!3m2!1sen!2sus!4v1646348862956!5m2!1sen!2sus",
         photo: ["img/college_400.jpg", "College graduation ceremony"],
-        name: "College",
+        name: "College Round 1",
         year: "Years: 2009-2013",
         organization: "Organization: Cal Poly Humboldt",
         description: "Description: I went to Cal Poly Humboldt, graduating with a BS in Biology.  During this 4 year time period I was a botany supplemental course instructor, Cell Biology Club vice president, Surfrider volunteer, farm intern, camp counselor, cashier, dish washer, and aquarium docent.  You caught me, we lumped a few life events together."
@@ -138,13 +138,21 @@ const events = {
         organization: "Organization: Teton County (WY)",
         description: 'Description: Performed food and recreational water health inspections at business establishments within county.  Tested for presence of bacteria in drinking water in EPA-certified water lab.  Our office Halloween theme was "bugs".  I had to explain my costume to everyone, which is the mark of a great costume.'
     },
-    "geeky": {
-        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52086.05758215339!2d-120.87635462966522!3d35.321418876755686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ece48c9abb53f5%3A0x5364c9d9ee768e7e!2sBaywood-Los%20Osos%2C%20CA%2093402!5e0!3m2!1sen!2sus!4v1646349226729!5m2!1sen!2sus",
+    "help_desk": {
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52117.55770332562!2d-120.71158531111365!3d35.2724890666563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ece6be7b6cc227%3A0xbc0290c2ceef0f46!2sSan%20Luis%20Obispo%2C%20CA!5e0!3m2!1sen!2sus!4v1682903513390!5m2!1sen!2sus",
         photo: ["img/geeky_400.jpg", "D&D characters portrait"],
-        name: "Getting Geeky",
-        year: "Years: 2021-Present",
-        organization: "Organization: Computer Screen",
-        description: "Description: As I approached the ripe old age of 30, I decided it was time to learn more about those newfangled computers everybody keeps talking about.  In other words, get geeky.  The first step?  Start playing Dungeons and Dragons. Second?  Build a personal computer.  Third?  Learn.  I've taken online courses on Python, SQL + relational databases, R + data science + statistics, GIS, and front end web design (HTML + CSS + JS).  It turns out there is a lot to learn and always more to explore."
+        name: "IT Help Desk (and D&D)",
+        year: "Years: 2022-2023",
+        organization: "Organization: City of San Luis Obispo",
+        description: "Description: As I approached the ripe old age of 30, I decided it was time to learn more about those newfangled computers everybody keeps talking about.  In other words, get geeky.  The first step?  Start playing Dungeons & Dragons. Second?  Build a personal computer.  Third?  Take MOOCs in computer science.  Fourth?  Get a part-time job with the City of San Luis Obispo IT Help Desk."
+    }
+    "cuesta": {
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52117.55770332562!2d-120.71158531111365!3d35.2724890666563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ece6be7b6cc227%3A0xbc0290c2ceef0f46!2sSan%20Luis%20Obispo%2C%20CA!5e0!3m2!1sen!2sus!4v1682903513390!5m2!1sen!2sus",
+        photo: ["img/college_400.jpg", "College graduation ceremony"],
+        name: "College Round 1.5",
+        year: "Years: 2022-2023",
+        organization: "Organization: Cuesta College",
+        description: "Description: Stemming from a long-held enjoyment of maps, fieldwork, and technology, I set a career goal of becoming a professional land surveyor.  This led to a year of geomatics related courses at Cuesta College and an infinite series of profanities leveled at undaunted math textbooks."
     }
 }; 
 
