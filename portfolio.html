@@ -41,34 +41,45 @@
     </div>
     <main>
         <h1>Portfolio</h1>
-        <p> Welcome to my portfolio!  This is an odd thing to say for someone who was always the least artistic person in his family.  Despite this lack of talent and job positions that rarely necessitated the creation of dashing digital media, this personal portfolio page presents a few pretty projects I've crafted over the years.</p>
-        <p> The "search results" below describe each project and display medium size images.  Every image can be clicked to open an enlarged version in a new browser tab.  They are sorted in reverse chronological order.</p>
+        <p> Welcome to my portfolio!  Despite a lack of artistic talent and job positions that rarely necessitated the creation of dashing digital media, this personal portfolio page presents a few projects I've crafted over the years.</p>
+        <p> The "search results" below describe each project and display medium size images.  Every image can be clicked to open an enlarged version and/or download the source file.  Search results are sorted in reverse chronological order.</p>
         <hr>
           
         <h2>This Website</h2>
         <p>Let's start with the elephant in the room, this personal website!  It is a mobile-first, responsive website built with accessibility in mind.  It was made for the capstone project in the Web Design for Everybody Coursera Specialization taught by UC Michigan's Colleen van Lent.  The HTML, CSS, and JS are coded from scratch, though I hope you can tell it is based upon a certain search engine.</p>
         <hr>
 
-        <h2>Denuded Land in the Ducktown Dessert Maps</h2>
-        <p>For a century between the late 1800s and late 1900s a region in southeastern Tennessee was known as the "Ducktown Desert" despite receiving almost 60 inches of rain annually.  Logging, grazing, sulfur dioxide emissions from copper mining, and erosion degraded an area of nearly 50 square miles.  Thanks to generations of hard work by various government agencies and multiple mining companies, increased restoration science, and improved environmental policy, the Copper Basin once again looks like much of Appalachia&mdash;rounded mountain slopes are covered in a thick blanket of pines, broad leaf trees, and grasses.</p>
-        <p>This is what us raft guides learned when our company, Wildwater, took us on a field trip to the local Duck Town Basin Museum.  It so happened that this field trip coincided with the need for a capstone project for the  Geographic Information Systems (GIS) Coursera Specialization taught by UC Davis' Nick Santos.  The result?  I mapped and calculated the area of denuded land (bare earth with no vegetation) over the years.  This was primarily done by georeferencing historical paper maps and manually drawing vector polygons on satellite imagery.  Below, I present a table summarizing the area of denuded land and the maps used to calculate these areas.</p>
+        <h2>Building 4300 Traverse</h2>
+        <p>For our Introductory Land Survey course we traversed around Building 4300 at Cuesta College in San Luis Obispo, CA.  Equipment included a Spectra FOCUS 35 total station, Trimble TSC3 controller, and prism pole.  Direct reflectance shots were taken of the building walls.  AutoCAD was used to draw building walls and output a layout.  In other words, I drew a rectangle. At least it's a spatially accurate rectangle.</p>
+        <p>And heck, I did create an AutoCAD drawing template with documentation and CAD tips to share with classmates who weren't as familiar with AutoCAD.  So that's something.</p>
         <img src="img/google_images_small.png" alt="" class="google_icon">
-        <a target="_blank" href="img/ducktown_desert_table.png"><img src="img/ducktown_desert_table_500.png" alt="Ducktown Dessert area table.  Shows area of denuded land between 1910 and 2010." class="image_results"></a>
-        <br>
+        <a target="_blank" href="img/autocad_building4300.pdf"><img src="img/autocad_building4300_500.png" alt="AutoCAD Building 4300 Layout" class="image_results"></a>
+        <a target="_blank" href="img/autocad_template.dwt"><img src="img/autocad_template_400.png" alt="AutoCAD drawing template file" class="image_results"></a>
+        <hr>
+
+        <h2>History and Mapping of the Ducktown Desert</h2>
+        <p>  For a century between the late 1800s and late 1900s a region in southeastern Tennessee was known as the "Ducktown Desert" despite receiving almost 60 inches of rain annually.  Logging, grazing, sulfur dioxide emissions from copper mining, and erosion degraded an area of nearly 50 square miles.  Thanks to generations of hard work by various government agencies and multiple mining companies, increased restoration science, and improved environmental policy, the Copper Basin once again looks like much of Appalachia&mdash;rounded mountain slopes are covered in a thick blanket of pines, broad leaf trees, and grasses.</p>
+        <p>This is what us raft guides learned when our company, Wildwater, took us on a field trip to the local Ducktown Basin Museum.  It so happened that this field trip coincided with the need for a Geographic Information Systems (GIS) course project idea. The result?  I mapped and calculated the area of denuded land (bare earth with no vegetation) over the years in the Copper Basin.</p>
+        <p> To view the full report made with Esri ArcGIS Pro and Online, click on the image below.  It links to a "StoryMap" hosted by the cloud platform ArcGIS Online.</p>
+        <img src="img/google_images_small.png" alt="" class="google_icon">
+        <a target="_blank" href="https://chrisattias.maps.arcgis.com/apps/instant/exhibit/index.html?appid=2073d3a6d2814357884f2aaa3ef56c84"><img src="img/ducktown_desert_storymap_500.png" alt="Screenshot of ArcGIS Online StoryMap" class="image_results"></a>
+        <!--Old map images made with ArcMap-->
+        <!--
+        <img src="img/google_images_small.png" alt="" class="google_icon">
         <a target="_blank" href="img/ducktown_desert_map_1910_1000px.jpg"><img src="img/ducktown_desert_map_1910_500.jpg" alt="Ducktown Dessert maps 1910 to 1980" class="image_results"></a>
         <br>
         <a target="_blank" href="img/ducktown_desert_map_2010_1000px.jpg"><img src="img/ducktown_desert_map_2010_500.jpg" alt="Ducktown Dessert maps 1984 to 2010" class="image_results"></a>
+        -->
         <hr>
-
         <h2>New Britain Land Cover Maps</h2>
         <p>Southeastern Asia holds one the largest tropical rainforests in the world.  The island of New Guinea is at the heart of this ecologically critical area.  Northeast of New Guinea lies an island named New Britain, which is roughly the size of Taiwan.  New Britain has one of the highest deforestation rates in the region.</p>
-        <p>As a project for the same GIS course mentioned earlier I derived land cover types on New Britain using image classification software.  The area of forested land in 1989 and 2015 was calculated and compared.  These measurements are inaccurate because of partial cloud cover in satellite imagery.  It turns out rainforests often have rain clouds and rain clouds are bad for satellite imagery.</p>
+        <p>As a project for another GIS course I derived land cover types on New Britain using image classification in Esri ArcMap.  The area of forested land in 1989 and 2015 was calculated and compared.  These measurements are inaccurate because of partial cloud cover in satellite imagery.  It turns out rainforests almost always have rain clouds and rain clouds are bad for satellite imagery.</p>
         <img src="img/google_images_small.png" alt="" class="google_icon">
         <a target="_blank" href="img/new_britain_land_cover_1000px.png"><img src="img/new_britain_land_cover_400.png" alt="New Briton Land Cover Map" class="image_results"></a>
         <hr>
 
         <h2>13th Annual Klamath-Trinity Fish Fair Poster</h2>
-        <p>Up in northern California there is an annual educational event called the Klamath-Trinity Fish Fair. Nearly 1,000 students from all over the area gather at Hoopa Elementary to learn, play, and celebrate the local watersheds.  As Americorps Watershed Steward members, my site partner Brianna Walsh and I were responsible for the majority of the event planning.  We also gathered art from the students and made a fun poster!</p>
+        <p>Up in northern California there is an annual educational event called the Klamath-Trinity Fish Fair. Nearly 1,000 students from all over the area gather at Hoopa Elementary to learn, play, and celebrate the local watersheds.  As Americorps Watershed Steward members, my site partner Brianna and I were responsible for the majority of the event planning.  We also gathered art from the students and made a fun poster!</p>
         <img src="img/google_images_small.png" alt="" class="google_icon">
         <a target="_blank" href="img/fish_fair_750px.jpg"><img src="img/fish_fair_400.jpg" alt="13th Annual Klamath-Trinity Fish Fair Poster" class="image_results"></a>
         <hr>
