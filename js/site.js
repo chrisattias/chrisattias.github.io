@@ -140,7 +140,7 @@ const events = {
     },
     "help_desk": {
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52117.55770332562!2d-120.71158531111365!3d35.2724890666563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ece6be7b6cc227%3A0xbc0290c2ceef0f46!2sSan%20Luis%20Obispo%2C%20CA!5e0!3m2!1sen!2sus!4v1682903513390!5m2!1sen!2sus",
-        photo: ["img/geeky_400.jpg", "D&D characters portrait"],
+        photo: ["img/it_400.jpg", "Co-worker Deron and I"],
         name: "IT Help Desk",
         year: "Years: 2022-2023",
         organization: "Organization: City of San Luis Obispo",
@@ -153,6 +153,14 @@ const events = {
         year: "Years: 2022-2023",
         organization: "Organization: Cuesta College",
         description: "Description: Stemming from a long-held enjoyment of maps, fieldwork, and technology, I set a career goal of becoming a professional land surveyor.  This led to a year of geomatics related courses at Cuesta College and an infinite series of profanities leveled at undaunted math textbooks."
+    },
+    "axim": {
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204504.36985224337!2d-119.95936468410892!3d36.785419780134575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945de1549e4e9d%3A0x7b12406449a3b811!2sFresno%2C%20CA!5e0!3m2!1sen!2sus!4v1693948679972!5m2!1sen!2sus",
+        photo: ["img/axim_400.jpg", "Kayak on golf cart"],
+        name: "Land Survey Field Technician",
+        year: "Years: 2023-Present",
+        organization: "Organization: Axim Geospatial",
+        description: "Description: Perform topographic and bathymetric riverine surveys using Trimble SX10 scanning total stations, Trimble R10 GNSS receivers, Trimble TSC7 controllers, and Seafloor Systems or Bathylogger echo sounders.  In short, we click buttons on fancy electronics while trying not to get said fancy electronics too wet.  Whose up for a round...of kayaking?"
     }
 }; 
 
