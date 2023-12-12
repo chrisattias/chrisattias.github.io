@@ -160,7 +160,7 @@ const events = {
         name: "Land Survey Field Technician",
         year: "Years: 2023-Present",
         organization: "Organization: Axim Geospatial",
-        description: "Description: Perform topographic and bathymetric riverine surveys using Trimble SX10 scanning total stations, Trimble R10 GNSS receivers, Trimble TSC7 controllers, and Seafloor Systems or Bathylogger echo sounders.  In short, we click buttons on fancy electronics while trying not to get said fancy electronics too wet.  Whose up for a round...of kayaking?"
+        description: "Description: Perform topographic and bathymetric riverine surveys using Trimble SX10 scanning total stations, Trimble R10 GNSS receivers, Trimble TSC7 controllers, and Seafloor Systems or Bathylogger echo sounders.  In short, we click buttons on fancy electronics while trying not to get said fancy electronics too wet.  Who's up for a round...of kayaking?"
     }
 }; 
 
